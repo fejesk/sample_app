@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+<<<<<<< HEAD
 
   resources :users do
     member do
@@ -19,6 +20,8 @@ SampleApp::Application.routes.draw do
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'
 
+=======
+>>>>>>> origin/master
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -36,12 +39,21 @@ SampleApp::Application.routes.draw do
   # Sample resource route with options:
   #   resources :products do
   #     member do
+<<<<<<< HEAD
   #       get :short
   #       post :toggle
   #     end
   #
   #     collection do
   #       get :sold
+=======
+  #       get 'short'
+  #       post 'toggle'
+  #     end
+  #
+  #     collection do
+  #       get 'sold'
+>>>>>>> origin/master
   #     end
   #   end
 
@@ -55,7 +67,11 @@ SampleApp::Application.routes.draw do
   #   resources :products do
   #     resources :comments
   #     resources :sales do
+<<<<<<< HEAD
   #       get :recent, :on => :collection
+=======
+  #       get 'recent', :on => :collection
+>>>>>>> origin/master
   #     end
   #   end
 
@@ -68,7 +84,11 @@ SampleApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
   # root :to => "welcome#index"
+=======
+  # root :to => 'welcome#index'
+>>>>>>> origin/master
 
   # See how all your routes lay out with "rake routes"
 
